@@ -5,6 +5,39 @@ body {
     background-image: cover;
 }
 
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color:currentColor;
+    text-decoration: none;
+}
+
+/* header */
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+
+}
+.header__logo {
+}
+.header__nav {
+
+}
+.header__list {
+}
+.header__item {
+}
+.header__link {
+}
+
+
 /* container */
 .container {
 	width: 100%;
