@@ -26,9 +26,11 @@ a {
 
 }
 .header__logo {
+	width: 100px;
+	height: 100px;
 }
 .header__nav {
-
+font-family: butcher;
 }
 .header__list {
 }
