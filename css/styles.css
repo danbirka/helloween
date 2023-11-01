@@ -3,6 +3,8 @@
 body {
 	background-image: linear-gradient(#050227, #000);
     background-image: cover;
+	cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🍬</text></svg>"),
+        auto;
 }
 
 ul {
@@ -24,21 +26,38 @@ a {
     width: 100%;
     z-index: 10;
 
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 30px 20px;
+
 }
-.header__logo {
+
+.header__logo img {
 	width: 100px;
 	height: 100px;
 }
+
 .header__nav {
-font-family: butcher;
-}
-.header__list {
-}
-.header__item {
-}
-.header__link {
+font-family: "Butcherman", sans-serif;
+color: white;
+font-size: 40px;
+font-weight: 400;
 }
 
+.header__list {
+	display: flex;
+	gap: 50px;
+}
+
+.header__link:hover,
+.header__link:focus {
+	color: rgb(199, 114, 11);
+}
+/* frankenstein__section */
+.frankenstein__section {
+height: 100vh;
+}
 
 /* container */
 .container {
